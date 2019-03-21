@@ -337,7 +337,7 @@ class Weather extends React.Component {
                       <span>Max: {city.main.temp_max} °C</span>
                       <span>Min: {city.main.temp_min} °C</span>
                       <img
-                        src={`http://openweathermap.org/img/w/${
+                        src={`https://openweathermap.org/img/w/${
                           city.weather[0].icon
                         }.png`} alt={city.weather[0].description}
                       />
